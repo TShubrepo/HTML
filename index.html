@@ -2,12 +2,16 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML checkpoint</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
+        <a href="">
+            <h1 class="logo_place">ProjetCSS</h1>
+        </a>
         <ul>
             <li> <a href="#">ACCEUIL</a></li>
             <li> <a href="#">A PROPOS</a></li>
@@ -16,27 +20,44 @@
             <li> <a href="#">CONTACT</a></li>
         </ul>
     </nav>
-    <section>
-        <h2>A PROPOS</h2>
-        <p>A propos section</p>
+
+    <section id="feature">
+        <div class="fe-box">
+            <h2>ABOUT</h2>
+            <p></p>
+        </div>
+        <div class="fe-box">
+            <h2>TRAVAIL</h2> <br>
+            <p></p>
+        </div>
+        <div class="fe-box">
+            <h2>CV</h2> <br>
+            <p></p>
+        </div>
+        <div class="fe-box">
+            <h2>CONTACT</h2> <br>
+            <p></p>
+        </div>
     </section>
-    <section>
-        <h2>TRAVAIL</h2>
-        <p>Travail section</p>
-    </section>
-    <section>
-        <h2>CV</h2>
-        <p>CV section</p>
-    </section>
-    <section>
-        <h2>CONTACT</h2>
-        <p>CONTACT section</p>
-    </section>
-    <br>
-    <br>
-    <footer>
-        <p>© This the page footer</p>
-    </footer>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>A propos</h4>
+                </div>
+                <div class="footer-col">
+                    <h4>Travail</h4>
+                </div>
+                <div class="footer-col">
+                    <h4>CV</h4>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacts</h4>
+                </div>
+            </div>
+        </div>
+   </footer>
   <!-- Le reste du contenu -->
 </body>
 </html>
